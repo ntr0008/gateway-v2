@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
 }
-
+/* //////////////////////////////  HERO SECTION  /////////////////////////////////////// */
 .hero-image {
     
     background-image: url("https://www.recipetineats.com/wp-content/uploads/2021/03/Beef-Barbacoa_3.jpg");
@@ -23,7 +23,7 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
   }
-
+/* /////////////////////////////////////  MENU  //////////////////////////////////////////////////// */
   .menu{
     padding: 25px 0 25px 0;
   }
@@ -82,15 +82,7 @@ body, html {
   }
 
   
-
-  .fcontaianer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-  }
-  
+/* /////////////////////////////////////  FOOTER  ///////////////////////////////////// */
   .sfooter{
     display: flex;
     justify-content: space-around;
@@ -139,7 +131,7 @@ body, html {
   .icons a:hover{
     background-color: lightseagreen;
   }
-
+/* ////////////////////////////////////  NAVBAR  /////////////////////////////////////// */
   .nheading {
     display: flex;
     color: white;
@@ -177,10 +169,35 @@ body, html {
   
   .nav-links li a.active {
 
-    background-color: #4caf50;
+    background-color: #29602A;
   }
 
-  
+  @media (max-width:800px) {
+    .button-n {
+      padding-left: 74px;
+    }
+  }
+
+  nav {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    
+  }
+
+  /* ///////////////////////////////////  CONTACT  ///////////////////////////////////////// */
+
+  .fcontaianer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
 
   input[type=text], select, textarea{
     width: 100%;
@@ -204,23 +221,6 @@ body, html {
 
   input[type=submit]:hover{
     background-color: #45a049;
-  }
-
-  @media (max-width:800px) {
-    .button-n {
-      padding-left: 74px;
-    }
-  }
-
-  nav {
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: black;
-    font-family: "Montserrat", sans-serif;
-    
   }
 
   button{
